@@ -1,0 +1,98 @@
+.categories-dropdown {
+    position: relative;
+}
+
+#categoriesButton {
+    background-color: #0000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.glass-dropdown {
+    position: relative;
+}
+
+#glass-button {
+    background-color: #0000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.ing-dropdown {
+    position: relative;
+}
+
+#ing-button {
+    background-color: #0000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+#ing-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 200px; 
+    column-count: 8;
+    column-gap: 20px; 
+    padding: 10px; 
+}
+
+#ing-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#ing-dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.alcohol-dropdown {
+    position: relative;
+}
+
+#alcohol-button {
+    background-color: #0000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    column-count: 2; /* Set the number of columns */
+    column-gap: 20px; /* Adjust the gap between columns */
+    padding: 10px; /* Add padding to the dropdown content */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+

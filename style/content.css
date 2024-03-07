@@ -1,0 +1,27 @@
+        main {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .welcome-section,
+        .featured-section,
+        .about-section {
+            margin-bottom: 30px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }

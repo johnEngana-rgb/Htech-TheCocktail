@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Menu</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/categories.css">
+    <link rel="stylesheet" href="style/search.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/cards.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <a class="logo" href="index.html">Cocktails</a>
+            <div class='categories-dropdown'>
+                <button id="categoriesButton">Categories</button>
+                <div class="dropdown-content" id="categoriesDropdown"></div>
+            </div>
+            <div class='glass-dropdown'>
+                <button id="glass-button">Glass</button>
+                <div class="dropdown-content" id="glass-dropdown"></div>
+            </div>
+            <div class='ing-dropdown'>
+                <button id="ing-button">Ingredients</button>
+                <div class="dropdown-content" id="ing-dropdown-content"></div>
+            </div>
+            <div class='alcohol-dropdown'>
+                <button id="alcohol-button">Alcohol</button>
+                <div class="dropdown-content" id="alcohol-dropdown"></div>
+            </div>
+            <div class='search-container'>
+                <input type="text" placeholder="Search your drink" id='search-input'>
+                <button id="Search-Button">Search</button>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main class="obj-width">
+        <section class="welcome-section">
+            <h1>Welcome to Cocktails!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur tortor id cursus malesuada. Vestibulum
+                sit amet leo eu eros fermentum feugiat.</p>
+            <p>Phasellus ut massa at sem tincidunt sollicitudin vel a orci. Integer efficitur urna nec urna pellentesque, nec
+                convallis est ullamcorper. Quisque tempus lectus euismod odio varius, ac ultrices felis laoreet.</p>
+        </section>
+    
+        <section class="featured-section">
+            <h2>Featured Cocktails</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur tortor id cursus malesuada. Vestibulum
+                sit amet leo eu eros fermentum feugiat.</p>
+            <p>Phasellus ut massa at sem tincidunt sollicitudin vel a orci. Integer efficitur urna nec urna pellentesque, nec
+                convallis est ullamcorper. Quisque tempus lectus euismod odio varius, ac ultrices felis laoreet.</p>
+        </section>
+    
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur tortor id cursus malesuada. Vestibulum
+                sit amet leo eu eros fermentum feugiat.</p>
+            <p>Phasellus ut massa at sem tincidunt sollicitudin vel a orci. Integer efficitur urna nec urna pellentesque, nec
+                convallis est ullamcorper. Quisque tempus lectus euismod odio varius, ac ultrices felis laoreet.</p>
+        </section>
+    </main>
+    <main class = 'obj-width' id = 'drink-container'>
+        <div class = 'drink-card-container' id = drinkCardContainer>
+            <img src=" PUT IMAGE SOURCE HERE OR strImageSource" alt="">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cocktails. All rights reserved.</p>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <!-- Content of the popup goes here -->
+            <div id="popupContent"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

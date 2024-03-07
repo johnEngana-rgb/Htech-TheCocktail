@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Menu - Drinks</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/categories.css">
+    <link rel="stylesheet" href="style/search.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/drinks.css"> <!-- Add a new CSS file for drink-specific styles if needed -->
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <a class="logo" href="index.html">Cocktails</a>
+            <div class='categories-dropdown'>
+                <button id="categoriesButton">Categories</button>
+                <div class="dropdown-content" id="categoriesDropdown"></div>
+            </div>
+            <div class='glass-dropdown'>
+                <button id="glass-button">Glass</button>
+                <div class="dropdown-content" id="glass-dropdown"></div>
+            </div>
+            <div class='ing-dropdown'>
+                <button id="ing-button">Ingredients</button>
+                <div class="dropdown-content" id="ing-dropdown-content"></div>
+            </div>
+            <div class='alcohol-dropdown'>
+                <button id="alcohol-button">Alcohol</button>
+                <div class="dropdown-content" id="alcohol-dropdown"></div>
+            </div>
+            <div class='search-container'>
+                <input type="text" placeholder="Search your drink" id='search-input'>
+                <button id="Search-Button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="obj-width">
+        <!-- Include drink cards here -->
+        <div class='drink-card-container' id='drinkCardContainer'>
+            <!-- ... Dynamic content will be inserted here ... -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cocktails. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Include script.js for common functionality -->
+    <script src="drinks.js"></script> <!-- Add a new JavaScript file for drink-specific functionality if needed -->
+</body>
+
+</html>
